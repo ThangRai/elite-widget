@@ -38,7 +38,7 @@
         let cfg = { ...DEFAULT_CFG };
 
         try {
-            const res = await fetch(BASE + 'widget_config_api.php?token=' + encodeURIComponent(userToken), {
+            const res = await fetch(BASE + 'widget_config_bot.php?token=' + encodeURIComponent(userToken), {
                 method: 'GET',
                 cache:  'default'
             });
