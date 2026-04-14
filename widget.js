@@ -5,7 +5,7 @@
         const script = document.getElementById('elite-ai-script');
         if (!script) return;
 
-        const BASE      = script.src.replace('widget.js', '');
+        const BASE = 'https://cdn.jsdelivr.net/gh/ThangRai/elite-widget@main/';
         const userToken = script.getAttribute('data-token');
         const apiPath   = script.getAttribute('data-api');
 
